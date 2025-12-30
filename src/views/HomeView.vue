@@ -1,7 +1,7 @@
 <template>
     <h1>Home View</h1>
     <button @click="check">Check health</button>
-    <div>{{  }}</div>
+    <div>{{ response }}</div>
 </template>
 
 <script>
