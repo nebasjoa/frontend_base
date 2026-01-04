@@ -1,6 +1,10 @@
 :root {
   --text-primary: #2e2e2e;
   --main-width: 992px;
+  --simple-button-padding: 10px 12px;
+  --border-radius-standard: 5px;
+
+  --primary-color: #ffcd00;
 }
 
 * {

@@ -1,7 +1,12 @@
 <template>
-    <h1>Home View</h1>
-    <button @click="check">Check health</button>
-    <div>{{ response }}</div>
+    <div class="home-view-wrapper">
+        <div class="home-view-content">
+            <h1>Home View</h1>
+            <button @click="check" class="simple-button">Check health</button>
+            <div>{{ response }}</div>
+        </div>
+    </div>
+
 </template>
 
 <script>
@@ -23,4 +28,21 @@ export default {
 </script>
 
 <style scoped>
+.home-view-wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.home-view-content {
+    width: 100%;
+    max-width: var(--main-width);
+    margin: auto;
+}
+
+.simple-button {
+    border: none;
+    padding: var(--simple-button-padding);
+    border-radius: var(--border-radius-standard);
+    cursor: pointer;
+}
 </style>
