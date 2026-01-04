@@ -48,7 +48,19 @@ export default {
     }
 }
 
-@media (max-width: 1023px) {
+@media (min-width: 768px) {
+    .navbar-view-wrapper {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .navbar-view-wrapper {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1280px) {
     .navbar-view-wrapper {
         padding: 10px;
     }

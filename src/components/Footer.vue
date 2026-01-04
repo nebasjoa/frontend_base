@@ -37,7 +37,19 @@
     }
 }
 
-@media (max-width: 1023px) {
+@media (min-width: 768px) {
+    .footer-view-wrapper {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer-view-wrapper {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1280px) {
     .footer-view-wrapper {
         padding: 10px;
     }

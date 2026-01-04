@@ -31,7 +31,8 @@ export default {
 .home-view-wrapper {
     width: 100%;
     display: flex;
-    height: 100%;
+    margin: auto;
+    margin-top: 0;
 }
 
 .home-view-content {
@@ -46,7 +47,19 @@ export default {
     }
 }
 
-@media (max-width: 1023px) {
+@media (min-width: 768px) {
+    .home-view-wrapper {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .home-view-wrapper {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 1280px) {
     .home-view-wrapper {
         padding: 10px;
     }
