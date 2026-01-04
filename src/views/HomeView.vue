@@ -31,12 +31,13 @@ export default {
 .home-view-wrapper {
     width: 100%;
     display: flex;
+    height: 100%;
 }
 
 .home-view-content {
     width: 100%;
     max-width: var(--main-width);
-    margin: auto;
+    margin: 0 auto;
 }
 
 .simple-button {
@@ -46,13 +47,13 @@ export default {
     cursor: pointer;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
     .home-view-wrapper {
         padding: 20px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .home-view-wrapper {
         padding: 10px;
     }

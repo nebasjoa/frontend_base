@@ -1,6 +1,8 @@
 :root {
   --text-primary: #2e2e2e;
   --main-width: 992px;
+  --max-width-mobile: 767px;
+
   --simple-button-padding: 10px 12px;
   --border-radius-standard: 5px;
 

@@ -20,4 +20,11 @@ export default {
 }
 </script>
 
-<style scoped></style>
+<style scoped>
+.layout-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+</style>
