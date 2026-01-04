@@ -40,13 +40,6 @@ export default {
     margin: 0 auto;
 }
 
-.simple-button {
-    border: none;
-    padding: var(--simple-button-padding);
-    border-radius: var(--border-radius-standard);
-    cursor: pointer;
-}
-
 @media (max-width: 767px) {
     .home-view-wrapper {
         padding: 20px;

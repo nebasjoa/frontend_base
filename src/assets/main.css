@@ -5,8 +5,38 @@
 
   --simple-button-padding: 10px 12px;
   --border-radius-standard: 5px;
+  --padding-standard: 20px;
+  --padding-small : 5px;
 
   --primary-color: #ffcd00;
+
+  /* =========================
+     Backgrounds
+     ========================= */
+
+  --bg-app: #F9FAFB;
+  --bg-surface: #FFFFFF;           /* Cards / panels */
+  --bg-muted: #F3F4F6;             /* Inputs / subtle sections */
+  --bg-hover: #E5E7EB;
+  --bg-selected: #EEF2FF;
+
+  /* =========================
+     Shadows
+     ========================= */
+
+  --shadow-xs: 0 0 2px rgba(0, 0, 0, 0.15);
+  --shadow-sm: 0 0 4px rgba(0, 0, 0, 0.16);
+  --shadow-md: 0 0 10px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 0 20px rgba(0, 0, 0, 0.12);
+  --shadow-focus: 0 0 0 3px rgba(79, 70, 229, 0.25);
+
+    /* =========================
+     Borders & Dividers
+     ========================= */
+
+  --border-default: #E5E7EB;
+  --border-strong: #D1D5DB;
+  --border-focus: var(--color-primary);
 }
 
 * {

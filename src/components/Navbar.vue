@@ -37,13 +37,6 @@ export default {
     align-items: center;
 }
 
-.simple-button {
-    border: none;
-    padding: var(--simple-button-padding);
-    border-radius: var(--border-radius-standard);
-    cursor: pointer;
-}
-
 .navbar-action-buttons {
     display: flex;
     gap: 10px;
