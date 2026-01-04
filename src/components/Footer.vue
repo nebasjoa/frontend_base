@@ -20,4 +20,16 @@
     width: 100%;
     max-width: var(--main-width);
 }
+
+@media (max-width: 480px) {
+    .footer-view-wrapper {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-view-wrapper {
+        padding: 10px;
+    }
+}
 </style>

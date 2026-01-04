@@ -45,4 +45,16 @@ export default {
     border-radius: var(--border-radius-standard);
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    .home-view-wrapper {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-view-wrapper {
+        padding: 10px;
+    }
+}
 </style>

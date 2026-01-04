@@ -20,4 +20,16 @@
     max-width: var(--main-width);
     width: 100%;
 }
+
+@media (max-width: 480px) {
+    .navbar-view-wrapper {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-view-wrapper {
+        padding: 10px;
+    }
+}
 </style>
