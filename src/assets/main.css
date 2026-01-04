@@ -1,0 +1,11 @@
+:root {
+  --text-primary: #2e2e2e;
+  --main-width: 992px;
+}
+
+* {
+  outline: none;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
