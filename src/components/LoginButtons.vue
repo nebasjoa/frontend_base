@@ -73,7 +73,7 @@ export default {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .google-button-wrapper {

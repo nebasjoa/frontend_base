@@ -33,13 +33,14 @@ export default {
     padding: var(--simple-button-padding);
     border-radius: var(--border-radius-standard);
     cursor: pointer;
+    font-size: 0.9rem;
 }
 
 .simple-input {
     border: 1px solid;
     border-radius: var(--border-radius-standard);
     border-color: var(--border-strong);
-    padding: var(--padding-small);
+    padding: var(--padding-middle);
 }
 
 .simple-label {
